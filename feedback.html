@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Feedback form
+	</title>
+	<link rel="stylesheet" type="text/css" href="fdbkf.css">
+</head>
+<body background="wdflogbckg.jpg" >
+	<div class="contact-form" align="center">
+		<h1>Feedback Form</h1>		
+	<form action="details_entry.php" method="post" >
+		<table align="center">
+			<div class="txtbx">
+				
+				<label>First name:</label>
+				<input type="text" name="first_name" required>
+			
+			</div>
+			<div class="txtbx">
+				<label>Last name:</label>
+				<input type="text" name="last_name" required>
+			</div>
+			<div class="txtbx">
+				<label>Email:</label>
+				<input type="email" name="email" required>
+			</div>
+			<div class="txtbx">
+				<label>Feedback:</label>
+				<input type="text" name="feedback" required>
+			</div>
+			<a >
+				<input type="Submit" name="save" value="Submit" class="btn">
+			</a>
+		</table>		
+	</form>
+	</div>
+</body>
+</html>

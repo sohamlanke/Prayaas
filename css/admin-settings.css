@@ -1,0 +1,33 @@
+body
+{
+	background-image: url("../images/login-background.jpg");
+	background-repeat: no-repeat;
+	height: 95%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main-box{
+	width: 50%; height: 600px; background-color: #4C4C4C; margin: auto; margin-top: 50px;
+	border-radius: 17px;
+}
+#new-admin-btn{
+	border-style: none;
+	background-color:  #2D98AF;
+	text-align: center;
+
+	color: #ffffff;
+	font-size: 17px;
+	border-radius: 10px;
+	padding: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+
+	margin: 30px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+#new-admin-btn:hover
+{
+	background-color: #E8AA14;
+}

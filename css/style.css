@@ -1,0 +1,422 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/*.campaign-image{
+  display: inline;
+  height: 100px;
+  width: 500px;
+}*/
+/* -----------------------------NAV BAR--------------------------- */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: #bf8c7c;
+}
+
+#logo {
+  cursor: pointer;
+  font-size: 28px;
+  margin-right: 15%;
+  font-family: "Rock Salt", cursive;
+}
+
+.navLinks {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 25px;
+}
+.navLinks a {
+  text-decoration: none;
+  /* transition: all 0.5 ease 0s; */
+  color: black;
+  font-size: 18px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all 0.5s;
+}
+nav ul li a:hover {
+  color: white;
+  border-bottom: 2px solid white;
+  font-size: 20px;
+}
+
+header button {
+  padding: 15px 45px;
+  color: white;
+  background-color: #bf8c7c;
+  border: 2px solid #4759a9;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all 0.5s;
+  overflow: hidden;
+  outline: none;
+}
+.navButton :hover {
+  background-color: #4759a9;
+  color: white;
+}
+
+/* -----------------------------------section1------------------------------------ */
+.sec1 {
+  width: 100%;
+  min-height: 55vh;
+  background: linear-gradient(rgba(58, 48, 48, 0.6), rgba(58, 48, 48, 0.6)),
+    url("../images/hands.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+}
+
+.head1 {
+  font-size: 50px;
+  padding-top: 60px;
+  padding-left: 17%;
+  text-align: left;
+  font-family: "Mulish", sans-serif;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.subHead1 {
+  font-size: 25px;
+  font-weight: 100;
+  padding-top: 10px;
+  padding-left: 17%;
+  text-align: left;
+  margin-bottom: 70px;
+}
+.joinButton {
+  margin-left: 30%;
+}
+.sec1Button {
+  padding: 15px 45px;
+  color: white;
+  background-color: #4759a9;
+  border: 1px solid #4759a9;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.joinButton :hover {
+  background-color: #3a4a8f;
+  border: 1px solid #3a4a8f;
+}
+
+/* --------------------------------------- section2 --------------------------- */
+.sec2 {
+  min-height: 80vh;
+}
+.Objective {
+  color: #323e73;
+  padding-bottom: 3%;
+
+  padding-top: 2%;
+  font-size: 40px;
+  margin-left: 15%;
+}
+
+.cards {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card1 {
+  display: grid;
+  grid-template-columns: 325px;
+  grid-template-rows: 210px 210px 80px;
+
+  grid-template-areas: "image" "text";
+
+  border-radius: 10px;
+  background: #efd5ce;
+  /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9); */
+  text-align: center;
+}
+
+.card-text1 {
+  grid-area: text;
+  padding: 0px 5px;
+  margin: 15px;
+}
+
+.card-text1 h3 {
+  color: #323e73;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.card-img1 {
+  grid-area: image;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  background: url("../images/1.png");
+  background-size: cover;
+}
+
+.card-img2 {
+  grid-area: image;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  background: url("../images/2.png");
+  background-size: cover;
+}
+
+.card-img3 {
+  grid-area: image;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  background: url("../images/3.png");
+  background-size: cover;
+}
+
+/* ------------------------------------- section 3 ----------------------------- */
+.sec3 {
+  min-height: 90vh;
+  background: #efd5ce;
+}
+
+.head-flex {
+  display: flex;
+}
+.icon {
+  padding-top: 2%;
+  width: 3%;
+  height: 3%;
+}
+
+.camp-flex {
+  display: block;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+.img-sec1 {
+  width: 600px;
+  height: 350px;
+  border-radius: 50px;
+}
+
+.campDonate {
+  margin-right: 25px;
+  margin-top: 25px;
+  padding: 10px 30px;
+  color: white;
+  background-color: #4759a9;
+  border: 1px solid #4759a9;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 20px;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.campDonate1 {
+  margin-right: 25px;
+  margin-top: 25px;
+  padding: 10px 30px;
+  color: white;
+  background-color: #4759a9;
+  border: 1px solid #4759a9;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 20px;
+  transition: all 0.5s;
+  overflow: hidden;
+  margin-left: 10%;
+}
+.campLearn {
+  padding: 10px 30px;
+  color: #565656;
+  background-color: #efd5ce;
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 20px;
+  transition: all 0.8s;
+  overflow: hidden;
+}
+.camphover2 :hover {
+  background: #4759a9;
+  color: white;
+  border: 2px solid #4759a9;
+}
+
+.camphover1 :hover {
+  background: #efd5ce;
+  color: #565656;
+  border: 2px solid black;
+}
+
+.heading {
+  padding-left: 10%;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.para {
+  padding-left: 10%;
+  font-size: 20px;
+}
+
+.heading1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
+.para1 {
+  font-size: 20px;
+}
+
+.pad {
+  padding-right: 5px;
+}
+
+.second {
+  padding-top: 50px;
+}
+
+.img-sec2 {
+  margin-left: 10%;
+  width: 100%;
+  height: 80%;
+  border-radius: 50px;
+  filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(4px);
+}
+
+/* ---------------------------------------- section4 ------------------------------------ */
+.sec4 {
+  min-height: 70vh;
+  overflow: hidden;
+}
+.sec4para {
+  margin: 0 15%;
+  padding-bottom: 5%;
+}
+.sec4Sub {
+  margin-left: 25%;
+  position: absolute;
+  z-index: 1;
+  font-size: 25px;
+}
+.sec4-flex {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.email-form {
+  padding-top: 100px;
+  margin-left: 27vw;
+}
+.input-form {
+  width: 40vw;
+  border: 1px solid white;
+  height: 4vw;
+  padding: 18px;
+  font-size: 25px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+  margin-bottom: 3rem;
+  position: absolute;
+}
+
+.sec4-img {
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+.but-text {
+  padding: 10px;
+}
+
+.submit-button {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15vh;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: #4759a9;
+  border: 1px solid #4759a9;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.but-img {
+  padding-right: 0px;
+}
+.sec4para {
+  margin: 0 25%;
+  font-size: 23px;
+}
+
+/* -------------------------------------------- SEC LAST -------------------------------- */
+.sec4 {
+  min-height: 60vh;
+  background: #97a3d6;
+}
+.main-div {
+  margin: 0 15%;
+  padding-top: 10%;
+}
+.foot-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-li {
+  list-style: none;
+}
+.foot-link {
+  text-decoration: none;
+  color: black;
+}
+
+.foot-head {
+  font-size: 76px;
+}
+
+.space {
+  padding-bottom: 30%;
+}
+
+.line {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.social-logo {
+  padding-left: 10px;
+  padding-right: 40%;
+}
+.social-logo a img {
+  height: 30px;
+  width: 30px;
+}
+.foot-flex2 {
+  display: flex;
+}
+.last a {
+  text-decoration: none;
+  color: black;
+}

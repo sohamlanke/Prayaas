@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  min-height: 100vh;
+  background: linear-gradient(rgba(58, 48, 48, 0.6), rgba(58, 48, 48, 0.6)),
+    url("/images/hands.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: auto;
+  color: white;
+}
+
+/* ---------------------------------------------- box form ------------------------ */
+
+.form-detail {
+  background: linear-gradient(rgba(61, 57, 57, 0.8), rgba(58, 48, 48, 0.8));
+  height: 700px;
+  width: 35%;
+  margin: 35%;
+}
+
+/* ----------------------------------- start ------------------------- */
+h1 {
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 60px;
+  font-family: "pattaya", sans-serif;
+  padding: 0;
+}
+.all {
+  padding-bottom: 30px;
+  padding-left: 100px;
+}
+.user-img {
+  height: 30px;
+  width: 30px;
+}
+::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+.inputs-text {
+  font-size: 20px;
+  color: white;
+  width: 400px;
+  padding: 12px;
+  margin: 8px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+select {
+  height: 40px;
+  width: 320px;
+  color: white;
+  background: transparent;
+  outline: none;
+}
+select option {
+  color: black;
+}
+select option:first-child {
+  color: white;
+}
+label {
+  font-size: 25px;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
+
+button {
+  padding: 15px 45px;
+  color: white;
+  background-color: #4759a9;
+  border: 1px solid #4759a9;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.5s;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-left: 250px;
+  outline: none;
+}
+button:hover {
+  background-color: #3a4a8f;
+  border: 1px solid #3a4a8f;
+}

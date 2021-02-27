@@ -1,0 +1,13 @@
+body
+{
+	background-image: url("fdbkformbg.jpg");
+	background-repeat: no-repeat;
+	height: 95%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main-box{
+	width: 50%; height: 600px; background-color: #4C4C4C; margin: auto; margin-top: 50px;
+	border-radius: 17px;
+}

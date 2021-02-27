@@ -1,0 +1,131 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background-image: url("../images/login-background.jpg");
+	background-repeat: no-repeat;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.signup-button
+{
+	border-style: none;
+	background-color: #E8AA14;
+	text-align: center;
+
+	color: #ffffff;
+	font-size: 15px;
+	border-radius: 10px;
+	padding: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+
+	margin: 30px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.signup-button:hover
+{
+	background-color: #2D98AF;
+}
+
+.login-panel
+{
+	margin: auto;
+	width: 22%;
+	height: 470px;
+	margin-top: 120px;
+	border-radius: 20px;
+	background-color: #2D98AF;
+}
+.login-panel h2
+{
+	font-family: Risque;
+	text-align: center; /*This font is not available*/
+	color: #ffffff;
+	height: 51px;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	font-size: 45px;
+
+}
+.login-panel h3
+{
+	background-color: #E8AA14;
+	text-align: center;
+	color: #ffffff;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 20px;
+}
+.login-fields
+{
+	height: 350px;
+	background-color: #4C4C4C;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	text-align: center;
+}
+.login-fields input
+{
+	text-align: center;
+	width: 77%;
+	margin-bottom: 20px;
+	border-style: none;
+	border-top-style: hidden;
+	border-left-style: hidden;
+	border-right-style: hidden;
+	border-bottom-style: groove;
+  	background-color: #eee;
+  	border-color: #E8AA14;
+  	background-color: transparent;
+  	border-width: 5px;
+  	height: 23px;
+}
+.login-fields input:first-child
+{
+	margin: 40px;
+	margin-top: 50px;
+}
+
+
+.login-button
+{
+	border-style: none;
+	background-color: #E8AA14;
+	text-align: center;
+
+	color: #ffffff;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 5px;
+	padding-left: 25px;
+	padding-right: 25px;
+
+	margin: 30px;
+	margin-top: 40px;
+}
+.login-button:hover
+{
+	background-color: #2D98AF;
+}
+.login-fields a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffffff;
+  opacity: 1; /* Firefox */
+}
+#retype-password{
+	margin-top: 18px;
+}

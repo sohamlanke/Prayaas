@@ -1,0 +1,141 @@
+body{
+	cursor: url("https://img.icons8.com/android/15/000000/cursor.png"), auto;
+	background-image: url("../images/bgimg.png");
+	background-repeat: no-repeat;
+	height: 95%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+td{
+	text-align: center;
+	width: 25%;
+	max-width: 2px;
+	overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+}
+#logout
+{
+	color: #4C4C4C;
+	background-color: transparent;
+	border: transparent;
+	font-size: 17px;
+	width: 80px;
+	height: 40px;
+	position: absolute;
+	border-radius: 2px;
+	margin-top: 9px;
+	right: 60px;
+	font-weight: bold;
+}
+#logout:hover
+{
+	background-color: #E8AA14;
+}
+
+.box
+    {
+		background-color: #4C4C4C;
+		border-radius: 20px;
+		overflow: auto;
+	}
+
+.menubar ul{
+	list-style: none;
+	display: inline-flex;
+}
+
+.menubar ul li
+{
+	width: 200px;
+}
+
+.menubar
+{
+	background-color: #2D98AF;
+	text-align: center;
+
+}
+header{
+	margin-top: 10px;
+}
+
+.menubar ul li a:hover
+{
+	background-color: #4C4C4C;;
+	border-radius: 10px;
+}
+
+.active
+{
+	background-color: #E8AA14;
+	border-radius: 10px;
+}
+
+.menubar ul li a
+{
+	text-decoration: none;
+	color: #FEFEFA;
+	font-family: Roboto Slab; 
+	/*This is not applied*/
+	font-size: 20px;
+	padding: 4px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+.info{
+    margin: 30px auto;
+    height: 590px;
+    width: 95%;
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em;
+	
+}
+.info div 
+{	
+	color: white;
+}
+#box3{
+    grid-column: 1/3;
+}
+#box1, #box2{
+	grid-row: 1/3;
+}
+.info div h2 p
+{
+	text-align: center;
+	background-color: #2D98AF;
+	padding: 0px;
+	margin: 0px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	height: 31px;
+	padding-top: 10px;
+	font-size: 20px;
+}
+.info div h2
+{
+	margin: 0px;
+	padding: 0px;
+}
+.info div ul
+{
+	list-style: none;
+	display: table;
+	table-layout: fixed;
+	justify-content: center;
+	background-color: #E8AA14;
+	height: 24px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+
+}
+.box-heading li
+{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
