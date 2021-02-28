@@ -35,7 +35,6 @@
                 <ul>
                     <li><a href="admin.php" >Analytics</a></li>
                     <li><a href="#" class="active">Volunteer</a></li>
-                    <li><a href="feedbackop.php">Feedbacks</a></li>
                     <!-- <li><a href="#">Campaign</a></li>
                     <li><a href="#">Funds</a></li> -->
                 </ul>
