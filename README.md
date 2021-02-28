@@ -1,5 +1,5 @@
 # Prayaas
-A NGO website with Admin settings and backend with php.
+A NGO website with backend as php.
 <br><b>Features:</b>
 <br>Admin Login system (Default credentials - username: admin, pass: admin)
 <br>Adding and deleting Campaigns through admin page
