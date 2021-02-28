@@ -1,4 +1,4 @@
 # Prayaas
 A NGO website
-#Screenshots
+<b>Screenshots</b>
 ![Alt text](/Screenshots/index-php.png?raw=true "index page")
