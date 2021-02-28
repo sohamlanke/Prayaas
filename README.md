@@ -1,3 +1,4 @@
 # Prayaas
 A NGO website
-![Alt text](/Screenshots/index-php.png?raw=true "Optional Title")
+#Screenshots
+![Alt text](/Screenshots/index-php.png?raw=true "index page")
