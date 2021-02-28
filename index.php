@@ -31,6 +31,7 @@
           
           <li class="navLinks"><a href="https://rahul020800.github.io/covid-19/">About Covid-19</a></li>
           <li class="navLinks"><a href="aboutUs.html">About us</a></li>
+          <li class="navLinks"><a href="Admin-login.php">Admin Login</a></li>
         </ul>
       </nav>
       <a class="navButton" href="don2.php"
